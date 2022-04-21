@@ -1,0 +1,10 @@
+# esp32z80
+diskdef esp32z80
+  seclen 512
+  tracks 512
+  sectrk 32
+  blocksize 4096
+  maxdir 512
+  boottrk 0
+  os 2.2
+end
