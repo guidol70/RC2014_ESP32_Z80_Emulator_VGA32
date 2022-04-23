@@ -23,8 +23,12 @@ SDCard-Support-Commands like sdfiles and sdcopy does work ;)
 The original version (without VGA32-Support) is available at<br/>
 https://github.com/djbottrill/ESP32-Z80-Emulator
 
-This VGA32-Port does use the FabGL-Terminal from<br/>
+This VGA32-Port does use the FabGL-Terminal from Fabrizio Di Vittorio (fdivitto2013@gmail.com)<br/>
 https://github.com/fdivitto/FabGL
+
+![VGATextColor_1](https://github.com/guidol70/RC2014_ESP32_Z80_Emulator_VGA32/blob/main/Pictures/ESP32Z80_VGAText_1.jpg)
+
+![VGATextColor_2](https://github.com/guidol70/RC2014_ESP32_Z80_Emulator_VGA32/blob/main/Pictures/ESP32Z80_VGAText_2.jpg)
 
 Notes / Problems at this time:
 - Breakpoint GPIO-Switches sw1(26) & sw2 (27) may be incorect or non free GPIOs
