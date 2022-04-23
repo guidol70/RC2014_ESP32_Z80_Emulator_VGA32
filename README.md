@@ -3,10 +3,10 @@
 - Not Boot without a SDCard
 ![No Boot without a SDCard](https://github.com/guidol70/RC2014_ESP32_Z80_Emulator_VGA32/blob/main/Pictures/RC2014_VGA32_NoBoot.jpg)
 
-- Booting with SDCard
-![Booting with SDCard](https://github.com/guidol70/RC2014_ESP32_Z80_Emulator_VGA32/blob/main/Pictures/RC2014_VGA32_Boot.jpg)
+- Booting with SDCard<br/>
+![Booting with SDCard](https://github.com/guidol70/RC2014_ESP32_Z80_Emulator_VGA32/blob/main/Pictures/ESP32Z80_VGAText_3.jpg)
 
--Showing the DiskSpace of the A: (A.dsk) Image-File
+- Showing the DiskSpace of the A: (A.dsk) Image-File
 ![SHowing the DiskSpace](https://github.com/guidol70/RC2014_ESP32_Z80_Emulator_VGA32/blob/main/Pictures/RC2014_VGA32_DiskSpace.jpg)
 
 - Executing Wordstar 4.0
@@ -20,22 +20,25 @@ The Jr-cutDown-Version lacks the following Features of the original Emulator-Ver
 BUT
 SDCard-Support-Commands like sdfiles and sdcopy does work ;)
 
-The original version (without VGA32-Support) is available at<br/>
+The original version of the ESP32-Z80-Emulator (without VGA32-Support)<br/>
+from David Bottrill (david@bottrill.org) is available at<br/>
 https://github.com/djbottrill/ESP32-Z80-Emulator
 
-This VGA32-Port does use the FabGL-Terminal from Fabrizio Di Vittorio (fdivitto2013@gmail.com)<br/>
+This VGA32-Port does use the FabGL-VGATextController with 16 Colors<br/>
+from Fabrizio Di Vittorio (fdivitto2013@gmail.com)<br/>
 https://github.com/fdivitto/FabGL
 
 ![VGATextColor_1](https://github.com/guidol70/RC2014_ESP32_Z80_Emulator_VGA32/blob/main/Pictures/ESP32Z80_VGAText_1.jpg)
 
 ![VGATextColor_2](https://github.com/guidol70/RC2014_ESP32_Z80_Emulator_VGA32/blob/main/Pictures/ESP32Z80_VGAText_2.jpg)
 
-Notes / Problems at this time:
-- Breakpoint GPIO-Switches sw1(26) & sw2 (27) may be incorect or non free GPIOs
-- Config of Keyboard and Screen-Color via .ino because I had to use FabGL TextController
-  instead the VGA16-Controller (got Problems to get the SDCard to init)
+- Notes / Problems at this time:
+  - Breakpoint GPIO-Switches sw1(26) & sw2 (27) may be incorect or non free GPIOs
+  - Config of Keyboard and Screen-Color via .ino because I had to use FabGL TextController
+    instead the VGA16-Controller (got Problems to get the SDCard to init)
+  
 
-- CPMTool DiskDef for A: (A.dsk) Image-File:
+###### CPMTool DiskDef for A: (A.dsk) Image-File:
 
 ```
 # esp32z80
