@@ -36,6 +36,8 @@ https://github.com/fdivitto/FabGL
   - Breakpoint GPIO-Switches sw1(26) & sw2 (27) may be incorect or non free GPIOs
   - Config of Keyboard and Screen-Color via .ino because I had to use FabGL TextController
     instead the VGA16-Controller (got Problems to get the SDCard to init)
+  - Does hang/freeze when exiting Wordstar 3.30 / 4.00 with the X-command
+  - Does throw exception when starting Turbo Pascal v3.01A (after Error-Msg Question)
   
 
 ###### CPMTool DiskDef for A: (A.dsk) Image-File:
